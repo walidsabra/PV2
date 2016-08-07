@@ -1,0 +1,27 @@
+﻿@model ProductVisualizer.Models.GEO
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>GEO</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.GEOName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GEOName)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.GEOId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
