@@ -151,12 +151,21 @@
     <Compile Include="Migrations\201608030552053_TasksIndex.Designer.cs">
       <DependentUpon>201608030552053_TasksIndex.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201608110716110_AddedCost.cs" />
+    <Compile Include="Migrations\201608110716110_AddedCost.Designer.cs">
+      <DependentUpon>201608110716110_AddedCost.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201608110721388_cOSTabc.cs" />
+    <Compile Include="Migrations\201608110721388_cOSTabc.Designer.cs">
+      <DependentUpon>201608110721388_cOSTabc.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\BIMUse.cs" />
     <Compile Include="Models\Linker.cs" />
     <Compile Include="Models\discipline.cs" />
     <Compile Include="Models\GEO.cs" />
     <Compile Include="Models\MarketSector.cs" />
+    <Compile Include="Models\MyCustomViewModel.cs" />
     <Compile Include="Models\Phase.cs" />
     <Compile Include="Models\PVModel.cs" />
     <Compile Include="Models\software.cs" />
@@ -172,10 +181,16 @@
     <Content Include="Content\chosen-sprite.png" />
     <Content Include="Content\chosen.css" />
     <Content Include="Content\chosen.min.css" />
+    <Content Include="Content\flipcard.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="imgs\DOCS.jpg" />
+    <Content Include="imgs\Glue.jpg" />
+    <Content Include="imgs\placeholder 2.jpg" />
+    <Content Include="imgs\placeholder.jpg" />
+    <Content Include="imgs\product.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\chosen.jquery.js" />
@@ -188,6 +203,7 @@
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Content\bootstrap.min.css.map" />
     <Content Include="Content\bootstrap.css.map" />
+    <None Include="Properties\PublishProfiles\pv20.pubxml" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="Scripts\jquery-1.9.1.js" />
     <Content Include="Scripts\jquery-1.9.1.min.js" />
@@ -251,6 +267,8 @@
     <Content Include="Views\Tasks\Details.cshtml" />
     <Content Include="Views\Tasks\Edit.cshtml" />
     <Content Include="Views\Tasks\Index.cshtml" />
+    <Content Include="Views\softwares\SoftwareList.cshtml" />
+    <Content Include="Views\softwares\SWLinkedItems.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -274,6 +292,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201608030552053_TasksIndex.resx">
       <DependentUpon>201608030552053_TasksIndex.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201608110716110_AddedCost.resx">
+      <DependentUpon>201608110716110_AddedCost.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201608110721388_cOSTabc.resx">
+      <DependentUpon>201608110721388_cOSTabc.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

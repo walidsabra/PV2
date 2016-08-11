@@ -8,8 +8,9 @@
 <h2>Details</h2>
 
 <div>
-    <h4>software</h4>
+
     <hr />
+    <h4>Software Information </h4>
     <dl class="dl-horizontal">
         <dt>
             @Html.DisplayNameFor(model => model.SoftwareName)
@@ -53,11 +54,9 @@
 
     </dl>
 </div>
-<div>
 
-        @Html.DropDownList("Links", ViewBag.LinksList as SelectList, "Select Software to Link", new { @class = "form-control" })
-    
-</div>
+
+
 <p>
     @Html.ActionLink("Edit", "Edit", new { id = Model.SoftwareId }) |
     @Html.ActionLink("Back to List", "Index")

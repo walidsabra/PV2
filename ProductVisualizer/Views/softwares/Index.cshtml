@@ -5,12 +5,17 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Index</h2>
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+<link href="~/Content/flipcard.css" rel="stylesheet" />
+<script src="~/Scripts/jquery-1.10.2.js"></script>
+
+<h2>Software List</h2>
 
 <p>
-    @Html.ActionLink("Create New", "Create")
+    @Html.ActionLink("Create New", "Create")  
+
 </p>
-<table class="table">
+@*<table class="table">
     <tr>
         <th>
             @Html.DisplayNameFor(model => model.SoftwareName)
@@ -55,4 +60,11 @@
     </tr>
 }
 
-</table>
+</table>*@
+<div class="row">
+    <br/>
+    @foreach (var item in Model)
+    {
+        @Html.Action("SWLinkedItems", new { id = item.SoftwareId });
+    }
+</div>
