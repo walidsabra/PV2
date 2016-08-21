@@ -159,6 +159,10 @@
     <Compile Include="Migrations\201608110721388_cOSTabc.Designer.cs">
       <DependentUpon>201608110721388_cOSTabc.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201608110759596_RemoveCostABC.cs" />
+    <Compile Include="Migrations\201608110759596_RemoveCostABC.Designer.cs">
+      <DependentUpon>201608110759596_RemoveCostABC.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\BIMUse.cs" />
     <Compile Include="Models\Linker.cs" />
@@ -298,6 +302,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201608110721388_cOSTabc.resx">
       <DependentUpon>201608110721388_cOSTabc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201608110759596_RemoveCostABC.resx">
+      <DependentUpon>201608110759596_RemoveCostABC.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
