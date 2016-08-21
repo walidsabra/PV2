@@ -126,7 +126,6 @@
     <Compile Include="Controllers\LinkersController.cs" />
     <Compile Include="Controllers\MarketSectorsController.cs" />
     <Compile Include="Controllers\PhasesController.cs" />
-    <Compile Include="Controllers\softwaresController.cs" />
     <Compile Include="Controllers\TasksController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -167,8 +166,6 @@
     <Compile Include="Models\MarketSector.cs" />
     <Compile Include="Models\MyCustomViewModel.cs" />
     <Compile Include="Models\Phase.cs" />
-    <Compile Include="Models\PVModel.cs" />
-    <Compile Include="Models\software.cs" />
     <Compile Include="Models\Task.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
